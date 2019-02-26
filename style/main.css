@@ -1,0 +1,32 @@
+body {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+#askPanel {
+    width: 80%
+}
+
+#askPanel .inner {
+    padding : 10px;
+}
+
+@media screen and (min-width: 640px) {
+    #askPanel {
+        width: 480px;
+    }
+    #askPanel .inner {
+        padding : 20px;
+    }
+}
+
+.main_title {
+    font-size: 120%;
+    margin: 20px 0;
+}
+
+.answerBox {
+    margin-bottom: 20px;
+}
+
